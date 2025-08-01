@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <div> 
+    
+    <div class="container">
+      <h1>📋 To-Do List for Sofiya Nisha</h1>
+      <form id="taskForm">
+        <input type="text" id="task" placeholder="Task Name" required />
+        <input type="text" id="assignedBy" placeholder="Assigned by (User name)" required />
+        <input type="date" id="assignedDate" required />
+        <input type="date" id="dueDate" required />
+        <button type="submit">Add Task</button>
+      </form>
+
+      <ul id="taskList"></ul>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
